@@ -1,0 +1,42 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+* {
+	font-family: Verdana, sans-serif;
+}
+.navbar {
+	background-color: #000;
+}
+#logomp {
+	width: 200px;
+	height: 70px;
+	margin-top: 20px;
+}
+
+.inputtop {
+	margin-top: 35px;
+	max-width: 550px;
+	min-width: 350px;
+}
+
+.buttonhead {
+	margin-left: 1px;
+}
+.reg {
+	margin-top: 45x;
+	margin-left: 35px;
+}
+.vhod {
+		margin-top: 25px;
+		max-height: 40px;
+		margin-left: 35px;
+}
+#navbarsExample08 {
+	color: white;
+}
+#navbar1{
+	background-color: #fff; 
+}
+#body1 {
+	width: 110%;
+}
