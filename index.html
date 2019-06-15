@@ -33,17 +33,17 @@
                             <div class="col-md-4">
                               <div class="input-group inputtop ">
                                 <div class="input-group-btn ">
-                                     <!-- Кнопки -->  
+                                       
                                            </div>
                                       <input type="text" class="form-control " aria-label="Введите домен или слово">
-                                      <!-- Кнопки -->  
+                                        
                                       <button   type="button" class="btn btn-success "  >Подобрать</button ><button type="button" class="btn btn-default">Whois</button>
                                   </div>
                                   
                                       </div>
                                       <div class="col-md-4">
                                       <div>
-                                        <a href="#" class="reg">Регистрация</a>
+                                        <button   class=" btn btn-info vhod"> Регистрация</button>
                                         <button   class=" btn btn-primary vhod"> Войти</button>
                                </div>
 
@@ -66,7 +66,7 @@
         <div class="dropdown-menu" aria-labelledby="dropdown08">
           <a class="dropdown-item" href="#">Домены</a>
           <a class="dropdown-item" href="#">Конструктор и CMS</a>
-          <a class="dropdown-item" href="#">Хостинг</a>
+          <a class="dropdown-item" href="hosting.php">Хостинг</a>
           <a class="dropdown-item" href="#">VPS</a>
           <a class="dropdown-item" href="#">Серверы и ДЦ</a>
           <a class="dropdown-item" href="#">SSL</a>
@@ -82,7 +82,7 @@
         <a class="nav-link" href="#">Конструктор и CMS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">Хостинг</a>
+        <a class="nav-link " href="hosting.php">Хостинг</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " href="#">VPS</a>
@@ -114,7 +114,12 @@
 
 			</header>
        
-
+<!--<?php
+    $title = '   ';
+    include("header.php") 
+    
+?> 
+-->
 
 <div id="sliderFade" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -142,15 +147,77 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+</div>
+ <br>         
+<div class="container">
+  <div class="row">
+      <div class="col-md-4">
+<div class="card" style="width: 18rem; ">
+  <img src="img/card1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><b>Хостинг и серверы</b></h5>
+    <p class="card-text">Надёжный классический и VIP хостинг, VPS с SSD+HDD и SSD носителями, Dedicated. Домены в подарок.</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+    <a href="#" class="text"> от 99 руб/мес </a>
+        </div>
 
+       </div>
 
+    </div>
+    <div class="col-md-4">
+<div class="card" style="width: 18rem; ">
+  <img src="img/card2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><b> SSL- сертификаты</b></h5>
+    <p class="card-text">Гарантия статуса сайта и безопасности передаваемых данных. Незаменимо для e-commerce.</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+    <a href="#" class="">От 1090 руб</a>
 
-
+  </div>
+</div>
 
    
 
 </div>
+<div class="col-md-4">
+<div class="card" style="width: 18rem; ">
+  <img src="img/card3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><b> Автоматическое SEO - продвижение</b></h5>
+    <p class="card-text">Управление ав­то­ма­ти­зи­ро­ван­ным про­дви­же­ни­ем в поисковых системах.</p>
+    <a href="#" class="btn btn-success">Подробнее</a>
+  </div>
 </div>
+</div>
+<br>
+<div  class="container">
+      <div class="row">
+        <div class="col-md-8">
+<article>
+  <h1>Новости</h1>
+  <h2>13 июня 2019г.</h2>
+  <a  href="#">Скидка 50% на услуга "Администрирования сервера"</a>
+  <hr>
+  <a href="#"> Сэкономьте до 42% на SSL сертификате до 20 июня  </a>
+  <h2>11 июня 2019г.</h2>
+  <a href="#">Только до 14 июня домены .RU .РФ .SU .Москва и .Moscow от 177 рублей</a>
+  <h2>10 июня 2019г.</h2>
+  <a href="#">Бесплатное скрытие персональных данных при регистрации международных доменов</a>
+</article>
+</div>
+ <div class="col-md-4">
+<article>
+  <h1>Мероприятия</h1>
+  <h2>19 июня Москва</h2>
+  <a  href="#">Скидка на участие в конференции Social Media Moscow"</a>
+  <h2>21-21 июня Москва</h2>
+  <a href="#">DevConf — конференция для профессиональных веб-разработчиков</a>
+  
+</article>
+</div>
+</div>
+</div>
+
 
 
 
@@ -173,11 +240,12 @@
 
 
 
-
+<!--<?php include("footer.php")?> -->
       <footer>
+        <hr/>
             <nav class="navbar  navbar-dark bg-dark">
               <div class="container-fluid" >
-  <a class="navbar-brand" href="#">Спасибо что выбрали MosPolytech</a></div>
+  <a class="navbar-brand" href="#">Спасибо, что выбрали MosPolytech</a></div>
 </nav>
            <div class="jumbotron">
            <div class="col-lg-3">
