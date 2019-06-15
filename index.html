@@ -10,6 +10,18 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="http://bootstraptema.ru/plugins/2016/animate/animate.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
 		<title> Регистрация доменов</title>
 	</head>	
 	<body>
@@ -41,36 +53,57 @@
      
       <br>
           
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-              <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Переключить навигацию">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Переключить навигацию">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
     <ul class="navbar-nav">
-      
-      <li class="nav-item">
-        <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Конструктор и CMS</font></font></a>
+            <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+        <div class="dropdown-menu" aria-labelledby="dropdown08">
+          <a class="dropdown-item" href="#">Домены</a>
+          <a class="dropdown-item" href="#">Конструктор и CMS</a>
+          <a class="dropdown-item" href="#">Хостинг</a>
+          <a class="dropdown-item" href="#">VPS</a>
+          <a class="dropdown-item" href="#">Серверы и ДЦ</a>
+          <a class="dropdown-item" href="#">SSL</a>
+          <a class="dropdown-item" href="#">Сервисы</a>
+          <a class="dropdown-item" href="#">Облачные сервисы</a>
+          <a class="dropdown-item" href="#">Партнёрам</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Домены <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Хостинг</font></font></a>
+        <a class="nav-link" href="#">Конструктор и CMS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VPS</font></font></a>
+        <a class="nav-link " href="#">Хостинг</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Сервера и ЦД</font></font></a>
-        <li class="nav-item">
-        <a class="nav-link " href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SSl</font></font></a>
+        <a class="nav-link " href="#">VPS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Сервисы</font></font></a>
+        <a class="nav-link " href="#">Серверы и ДЦ</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">SSL</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Сервисы</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+
+
         </div>
       </li>
     </ul>
@@ -81,22 +114,106 @@
 
 			</header>
        
-        <div class="container-fluid">
+
+
+<div id="sliderFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#sliderFade" data-slide-to="0" class="active"></li>
+        <li data-target="#sliderFade" data-slide-to="1"></li>
+        <li data-target="#sliderFade" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/BlackEnMP.png" class="d-block w-100" alt="Черный англ политех">
+        </div>
+        <div class="carousel-item">
+            <img src="img/BlackRusMP.png" class="d-block w-100" alt="Черный русский политех">
+        </div>
+        <div class="carousel-item">
+            <img src="img/WhiteRusMP.jpg" class="d-block w-100" alt="Белый политех">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#sliderFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#sliderFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+
+
+   
+
+</div>
+</div>
+
+
+
+
+       <!-- <div class="container-fluid">
           <div class="row">
 
-            <div class="col-lg-12"><img src="img/body4.png" alt="body" id="body4" >
+           <div class="col-lg-12"><img src="img/body4.png" alt="body" id="body4" > 
           </div>
           
-        </div>
+        </div> -->
+<br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
 
-
+      </div>
+    </div>
 
 
 
 
 
       <footer>
-        
-      </footer>
+            <nav class="navbar  navbar-dark bg-dark">
+              <div class="container-fluid" >
+  <a class="navbar-brand" href="#">Спасибо что выбрали MosPolytech</a></div>
+</nav>
+           <div class="jumbotron">
+           <div class="col-lg-3">
+            <h4>Информация</h4>
+           <a href="">О компании</a>
+           <a href="">Контакты</a>
+           <a href="">Новости</a>
+           <a href="">Мероприятия</a>
+           <a href="">Акции</a>
+            </div>
+            <div class="col-lg-3">
+            <h4>Услуги</h4>
+           <a href="">Зарегистрировать домен</a>
+           <a href="">Конструктор CMS</a>
+           <a href="">Хостинг</a>
+           <a href="">Серверы и ДЦ</a>
+           <a href="">SSL-сертификат</a>
+
+            </div>
+            <div class="col-lg-3">
+            <h4>Партнёрам</h4>
+           <a href="">Условия и цены</a>
+           <a href="">Для профессионалов</a>
+           <a href="">Реферальная программа</a>
+           <a href="">Клубные тарифы</a>
+           <a href="">Промоматериалы</a>
+            </div>
+            <div class="col-lg-3">
+            <h4>Помощь</h4>
+           <a href="">База знаний</a>
+           <a href="">Шаблоны заявлений</a>
+           <a href="">Офисы обслуживания</a>
+           <a href="">Отзывы</a>
+           <a href="">Сообщить о нарушении</a>
+            </div>
+          </div>
+          </footer>
 	</body>
 </html>
